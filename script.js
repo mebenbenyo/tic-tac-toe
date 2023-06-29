@@ -80,7 +80,7 @@ function bestSpot() {
 function checkTie() {
     if (emptySquares().length == 0) {
         for(var i = 0; i < cells.length; i++) {
-            cells[i].style.backgroundColor = "green";
+            cells[i].style.backgroundColor = "peach";
             cells[i].removeEventListener('click', turnClick, false);
         }
     declarewinner("Tie Game!")
