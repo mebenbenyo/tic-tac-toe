@@ -2,11 +2,18 @@
 <html>
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Sewuese Ayu">
         <title>Tic Tac Toe</title>
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titan+One">
+        <script src="script.js" defer></script>
     </head>
 
     <body>
+        <h1>Tic Tac Toe...</h1>
+
+        
         <table>
             <tr>
                 <td class="cell" id="0"></td>
@@ -24,13 +31,15 @@
                 <td class="cell" id="8"></td>
             </tr>
         </table>
-
-        <div class="endgame">
-            <div class="text">
-            </div>
-        </div>
-
+    
+        <div class="container">
         <button onclick="startGame()">Replay</button>
-        <script src="script.js"></script>
+    </div>
+
+    <div class="endgame">
+        <div class="text">
+        </div>
+    </div>
+
     </body>
 </html>
